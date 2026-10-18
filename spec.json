@@ -1,0 +1,50 @@
+{
+    "name":  "token-bench",
+    "logo":  "⏱️",
+    "exe":  "TokenBench.exe",
+    "desc":  "Free, open-source tokens-per-second benchmark for local LLMs on Windows — quant and thread sweeps with charts. 100 MB portable, offline, MIT.",
+    "topics":  [
+                   "benchmark",
+                   "tokens-per-second",
+                   "llm-performance",
+                   "local-ai",
+                   "llama-cpp",
+                   "quantization",
+                   "ai-tools",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "gpu-offload",
+                   "prompt-processing",
+                   "charts",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Automated sweeps** — run every quant of a model back to back and rank them by generation speed",
+                     "✅ **Split metrics** — prompt processing and token generation timed separately, like llama-bench does",
+                     "✅ **Thread and offload grid** — finds the thread count and GPU layer sweet spot instead of guessing",
+                     "✅ **Chart view** — bars and sparklines per run, printable report for comparing two machines",
+                     "✅ **Warmup control** — configurable warmup rounds so cache effects do not poison the first result",
+                     "✅ **CSV export** — every run lands in a spreadsheet-ready file with model, quant and settings columns",
+                     "✅ **100 MB self-contained exe** — runtime and benchmark backend bundled, portable, offline, MIT"
+                 ],
+    "compare":  [
+                    "| Feature | **token-bench** | llama-bench CLI | LM Studio | KoboldCpp |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free, OSS | Free | Free, OSS |",
+                    "| Open source | **Yes** | Yes | No | Yes |",
+                    "| GUI sweep across quants | **Yes** | Scripted | No | No |",
+                    "| Charted reports | **Yes** | No | Partial | No |",
+                    "| Thread and offload grid | **Yes** | Flags | No | Partial |",
+                    "| Portable, no install | **Yes, 100 MB** | Build needed | Installer | Zip |"
+                ],
+    "faqQ":  "how to benchmark LLM tokens per second on Windows?",
+    "faqA":  "Command-line benchmarks work but reading flags and collating numbers across quants is a chore. token-bench runs the sweep for you, separates prompt processing from generation and turns results into charts and CSV. It is a 100 MB portable exe, MIT, offline, and results stay on your machine.",
+    "s1":  "Dark bench view (#121417, blue #60A5FA): run table with quant, threads, tok per sec columns, selected row charted above with generation and prompt bars.",
+    "s2":  "Sweep setup wizard: model list with five quants checked, thread range 4 to 16, warmup rounds stepper at 2, estimated time chip reading 38 minutes.",
+    "s3":  "Report page: two-machine comparison chart, best-config summary card, export CSV button, log tail showing run 14 of 20 complete."
+}
